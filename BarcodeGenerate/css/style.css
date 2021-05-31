@@ -1,0 +1,44 @@
+body{
+    background-color:#011e38;
+}
+.s-input{
+    padding: 8px 4px;
+    font-family: Roboto;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid #007ff4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s-btn, #barcode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gen-value {
+    border-radius: 4px;
+    padding: 8px 26px;
+    background: rgb(163,85,178);
+    color: #fff;
+    border: none;
+    transition: 250ms ease;
+    font-family: Roboto;
+    box-shadow: none;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.gen-value:hover{
+    background: rgb(114, 60, 125);
+}
+
+.gen-value:active{
+    transform: scale(0.9);
+}
