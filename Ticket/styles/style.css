@@ -1,8 +1,9 @@
 .cardWrap {
     width: 27em;
-    margin: 3em auto;
+    margin: auto;
     color: #fff;
     font-family: sans-serif;
+    text-align: left;
 }
 .card {
     background: linear-gradient(to bottom, #e84c3d 0%, #e84c3d 26%, #ecedef 26%, #ecedef 100%);
@@ -10,7 +11,7 @@
     float: left;
     position: relative;
     padding: 1em;
-    margin-top: 100px;
+    margin-top: 1em;
 }
 .cardLeft {
     border-top-left-radius: 8px;
