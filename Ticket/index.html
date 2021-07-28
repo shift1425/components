@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+</head>
+<body>
+   
+  </body>
+  <script>
+
+    window.onload = function(){
+      
+  Swal.fire({
+  title: "Agendamento Confirmado com Sucesso",
+  width:800,
+  icon: 'success',
+  html:"<div class='cardWrap'> <div class='card cardLeft'> <h1>ZERO65 <span>LAVA JATO</span></h1> <div class='title'> <h2>JOSE DA SILVA</h2> <span>NOME</span> </div> <div class='name'> <h2>LAVAGEM AUTOMOTIVA - MOTO</h2> <span>TIPO</span> </div> <div class='seat'> <h2>30/12/2021</h2>  <span>DATA</span> </div>     <div class='time'> <h2>12:00</h2>  <span>HORA</span>  </div> </div> <div class='card cardRight'><div class='eye'></div><div class='number'><h3>157</h3><span>NUMERO</span></div><div class='barcode'><svg id='barcode'></svg></div></div></div>",
+  showCloseButton: true,
+  showCancelButton: false,
+  confirmButtonText:"VALEU!"
+})
+generateBarcode("157")
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+  <script src="./script/script.js"></script>
+  </html>
